@@ -1,0 +1,756 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    height: 100%;
+    font-family: 'Montserrat',sans-serif;
+    color: #969696;
+    letter-spacing: .5px;
+}
+
+		/*navbar*/
+nav {
+	width: 100%;
+	height: 60px;
+	color: white;
+	background-color: #242424;
+}
+
+nav ul {
+	float: right;
+	padding: 5px 50px 0px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0px 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a.active {
+	color: #48D1CC;
+}
+
+nav ul li a:hover {
+	color: #48D1CC;
+}
+
+		/*naslov i hero image*/
+div.hero-image {
+	position: relative;
+    height: 800px;
+    background-image: url(http://demo.akilathiwanka.info/atlas-html/images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.hero-image div.naslov {
+	width: 100%;
+    min-height: 1px;
+    padding-top: 300px;
+    padding-left: 200px;
+}
+
+div.hero-image div.naslov h1 {
+	color: white;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 0 20px;
+}
+
+div.hero-image div.podnaslov {
+	display: inline-block;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #48D1CC;   /*tirkizna*/
+    padding: 0 20px;
+    line-height: 40px;
+    margin-top: 25px;
+}
+
+			/*content*/
+section.about-content {
+	background-color: #e6e6e6;   /*svetlo siva*/
+	padding-bottom: 70px;
+}
+
+article.about-article {
+	width: 50%;
+	margin: 0 auto 25px;
+}
+
+#about-naslov {
+	color: #13141d;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 25px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#about-text {
+	margin: 0;
+    text-align: center;
+    line-height: 24px;
+}
+
+			/*info - skills section*/
+section.info-progress {
+	background-color: white;
+	width: 60%;
+	height: 470px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+div.main-content img.avatar {
+	border-radius: 50%;
+}
+
+div.main-content div.left-info {
+	display: inline-block;
+	width: 49%;
+	padding-top: 60px;
+	padding-right: 5%;
+	text-align: right;
+	color: #13141d;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+div.main-content div.right-progress {
+	display: inline-block;
+	width: 49%;
+	padding-top: 25px;
+	padding-left: 5%;
+	text-align: left;
+	vertical-align: top;
+	color: #13141d;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+span.green-text {
+	color: #48D1CC;
+    font-weight: 400;
+}
+
+div.main-content div.right-progress h5 {
+	color: #13141d;
+	font-size: 22px;
+	font-weight: 400;
+    letter-spacing: 1px;
+}
+
+div.main-content div.right-progress p {
+	color: #13141d;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+div.main-content div.progress-bar {
+	width: 80%;
+	height: 20px;
+	background-color: lightgrey;
+}
+
+div.main-content div.value1 {
+	width: 15%;
+	height: 20px;
+	background-color: #48D1CC;
+	color: white;
+	padding-left: 10px;
+}
+
+div.main-content div.value2 {
+	width: 35%;
+	height: 20px;
+	background-color: #48D1CC;
+	color: white;
+	padding-left: 10px;
+}
+
+div.main-content div.value3 {
+	width: 70%;
+	height: 20px;
+	background-color: #48D1CC;
+	color: white;
+	padding-left: 10px;
+}
+
+div.main-content div.value4 {
+	width: 45%;
+	height: 20px;
+	background-color: #48D1CC;
+	color: white;
+	padding-left: 10px;
+}
+			/*end of about section styles*/
+			/*start of portfolio section styles*/
+section.portfolio-content {
+	display: block;
+	width: 80%;
+	margin: 0 auto 50px;
+}
+
+section.portfolio-content h2 {
+	color: #13141d;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0 0 25px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+section.portfolio-content ul {
+	text-align: center;
+}
+
+section.portfolio-content li {
+	display: inline-block;
+	padding: 20px 15px;
+}
+
+section.portfolio-content li a {
+	text-decoration: none;
+}
+
+section.portfolio-content li a:hover {
+	color: black;
+}
+
+section.portfolio-content li a.active {
+	color: black;
+}
+
+section.portfolio-content div.portfolio-img {
+	display: inline-block;
+	width: 30%;
+	margin: 0 1%;
+	padding-bottom: 30px;
+}
+
+section.portfolio-content div.portfolio-img img {
+	width: 100%;
+}
+
+		/*services content*/
+
+div.main-content section.services {
+	display: block;
+	width: 100%;
+	height: auto;
+	background-color: #e6e6e6;
+}
+
+div.main-content section.services div.kolone {
+	display: block;
+	width: 80%;
+	margin: 0 auto 50px;
+}
+
+div.main-content section.services h2 {
+	color: #13141d;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0 0 25px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+div.main-content section.services div {
+	display: inline-block;
+	width: 30%;
+	margin: 0 1%;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+div.main-content section.services h5 {
+	color: #13141d;
+    font-weight: 400;
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+div.main-content section.services span {
+	color: #48D1CC;
+    font-size: 120px;
+    margin: 10px 0 25px;
+}
+
+		/*projects section*/
+div.main-content section.projects {
+	display: block;
+	width: 80%;
+	margin: 0 auto 50px;
+}
+
+div.main-content section.projects div {
+	display: inline-block;
+	width: 30%;
+	margin: 0 1%;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+div.main-content section.projects span {
+	color: #48D1CC;
+    font-size: 80px;
+    margin: 10px 0 25px;
+}
+
+div.main-content section.projects h3 {
+	color: #13141d;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+div.main-content section.projects h5 {
+	font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+		/*blog section*/
+div.main-content section.blog {
+	display: block;
+	width: 100%;
+	height: auto;
+	background-color: #e6e6e6;
+}
+
+div.main-content section.blog h2 {
+	color: #13141d;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 100px 0 40px;
+    text-align: center;
+}
+
+div.main-content section.blog div.container {
+	display: block;
+	width: 80%;
+	margin: 0 auto 50px;
+	padding-bottom: 100px;
+}
+
+div.main-content section.blog div.container div.blog-post {
+	display: inline-block;
+	width: 30%;
+	margin: 0 1%;
+}
+
+div.main-content section.blog div.container div.blog-post img {
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+div.main-content section.blog div.container div.blog-post a {
+	color: #13141d;
+    font-weight: 400;
+    margin: 0 0 10px;
+    font-size: 22px;
+    text-decoration: none;
+}
+     	/*end of blog section styles*/
+
+div.main-content section.contact-section {
+	display: block;
+	width: 100%;
+}
+
+div.main-content section.contact-section h2 {
+	color: #13141d;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 45px;
+    margin-bottom: 30px;
+}
+
+div.main-content section.contact-section div.contact-info {
+	display: block;
+	width: 80%;
+	margin: 0px 9% 50px;
+}
+
+div.main-content section.contact-section div.contact-info div {
+	display: inline-block;
+	width: 30%;
+	margin: 0 1%;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+div.main-content section.contact-section div.contact-info div span {
+	color: #48D1CC;
+    font-size: 50px;
+    margin: 10px 0 25px;
+}
+
+div.main-content section.contact-section form {
+	display: block;
+	width: 80%;
+	margin: 0px 9% 50px;
+}
+
+div.main-content section.contact-section form input.inputi {
+	display: inline-block;
+	width: 48%;
+	height: 60px;
+	padding: 10px;
+	margin: 10px;
+	font-size: 18px;
+	background-color: #e6e6e6;
+	border-radius: 5px;
+	border: none;
+}
+
+div.main-content section.contact-section form textarea {
+	width: 98%;
+	resize: none;
+	padding: 10px;
+	margin: 10px;
+	font-size: 18px;
+	background-color: #e6e6e6;
+	border-radius: 5px;
+	border: none;
+}
+
+div.main-content section.contact-section form input.button {
+	width: 15%;
+	height: 50px;
+	margin: 10px;
+	font-size: 16px;
+	color: white;
+	background-color: #48D1CC;
+	border: none;
+}
+				/*end of contact section style*/
+
+div.main-content footer {						
+	width: 100%;
+	height: 150px;
+	background-color: #e6e6e6;
+}
+
+div.main-content footer div {
+	width: 80%;
+	margin: 0 auto;
+	padding: 60px 0px;
+}
+
+div.main-content footer div ul {
+	float: right;
+}
+
+div.main-content footer div ul li {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+div.main-content footer div p {
+	float: left;
+}
+
+div.main-content footer div ul li a {
+	color: #242424;
+}
+
+div.main-content footer div ul li a:hover {
+	color: #48D1CC;
+}
+				/*end of footer*/
+
+/*media query za manji ekran 760px*/
+@media screen and (max-width:760px) {
+	div.hero-image div.naslov {
+		width: 100%;
+	    min-height: 1px;
+	    padding-top: 150px;
+	    padding-left: 40px;
+	}
+
+	div.hero-image div.naslov h1 {
+		color: white;
+	    font-size: 50px;
+	    font-weight: 500;
+	    margin: 0 0 20px;
+	}
+
+	div.hero-image {
+		position: relative;
+		width: 100%;
+	    height: 400px;
+	    background-image: url(http://demo.akilathiwanka.info/atlas-html/images/bg.jpg);
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	}
+
+	article.about-article {
+		width: 80%;
+		margin: 0 auto 25px;
+	}
+
+	#about-naslov {
+	    padding-top: 30px;
+	}
+
+	section.info-progress {
+		width: 90%;
+		height: 470px;
+		margin: 30px auto;
+		text-align: center;
+	}
+
+	section.about-content {
+		padding-bottom: 30px;
+	}
+
+	section.portfolio-content {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	section.portfolio-content h2 {
+	    padding-top: 30px;
+	}
+
+	div.main-content section.services h2 {
+	    padding-top: 30px;
+	}
+
+	div.main-content section.services div.kolone {
+		width: 90%;
+		padding-bottom: 0px;
+		margin: 0 auto 20px;
+	}
+
+	div.main-content section.projects {
+		display: block;
+		width: 90%;
+		margin: 0px auto 0px;
+	}
+
+	div.main-content section.blog h2 {
+	    font-weight: 600;
+	    padding: 40px 0 10px;
+	}
+
+	div.main-content section.blog div.container {
+		display: block;
+		width: 95%;
+		margin: 0 auto 0px;
+		padding-bottom: 30px;
+	}
+
+		div.main-content section.contact-section form {
+		display: block;
+		width: 90%;
+		margin: 0px 5% 20px;
+	}
+
+	div.main-content section.contact-section form input.inputi {
+		display: inline-block;
+		width: 45%;
+		height: 50px;
+		padding: 8px;
+		margin: 8px;
+		font-size: 16px;
+	}
+
+	div.main-content section.contact-section form input.button {
+		width: 35%;
+		height: 40px;
+		margin: 10px;
+		font-size: 14px;
+	}
+
+	div.main-content section.contact-section form textarea {
+		width: 93%;
+	}
+
+	div.main-content footer {						
+		width: 100%;
+		height: 100px;
+	}
+
+	div.main-content footer div {
+		width: 90%;
+		margin: 0 auto;
+		padding: 30px 0px;
+	}
+}
+
+
+/*media queries za mali ekran 450px*/
+@media screen and (max-width:450px) {
+	nav {
+		width: 100%;
+		height: 80px;
+	}
+
+	div.hero-image {
+		position: relative;
+		width: 100%;
+	    height: 250px;
+	}
+
+	div.hero-image div.naslov {
+		width: 90%;
+	    min-height: 1px;
+	    padding-top: 150px;
+	    padding-left: 20px;
+	}
+
+	div.hero-image div.naslov h1 {
+		color: white;
+	    font-size: 30px;
+	    font-weight: 300;
+	    margin: 0 0 20px;
+	}
+
+	div.hero-image div.podnaslov {
+		display: block;
+		width: 100%;
+	    height: 40px;
+	    font-size: 17px;
+	    background-color: #48D1CC;  
+	}
+
+	article.about-article {
+		width: 90%;
+	}
+			
+	section.info-progress {
+		display: block;
+		width: 100%;
+		height: 700px;
+		margin: 30px auto;
+		text-align: center;
+	}
+
+	div.main-content div.left-info {
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	div.main-content div.right-progress {
+		display: block;
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	section.portfolio-content {
+		display: block;
+		width: 100%;
+		height: auto;
+		margin: 20px 0;
+	}
+
+	section.portfolio-content h2 {
+	    padding-top: 10px;
+	}
+
+	section.portfolio-content li {
+		display: block;
+		padding: 5px 15px;
+	}
+
+	section.portfolio-content li a {
+		text-decoration: none;
+		color: black;
+	}
+
+	section.portfolio-content div.portfolio-img {
+		display: block;
+		width: 95%;
+		padding-bottom: 10px;
+		margin: 5px auto;
+	}
+
+	div.main-content section.services div.kolone {
+		display: block;
+		width: 100%;
+	}
+
+	div.main-content section.services div {
+		display: block;
+		width: 95%;
+		margin: 0 auto;
+		padding-bottom: 10px;
+	}
+
+	div.main-content section.projects {
+		display: block;
+		width: 100%;
+	}
+
+	div.main-content section.projects span {
+	    font-size: 40px;
+	    margin: 5px 0 15px;
+	}
+
+	div.main-content section.projects h3 {
+	    font-size: 26px;
+	    font-weight: 500;
+	}
+
+	div.main-content section.projects h5 {
+		font-weight: 300;
+	    font-size: 14px;
+	    letter-spacing: 1px;
+	}
+
+	div.main-content section.blog div.container {
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		padding-bottom: 30px;
+	}
+
+	div.main-content section.blog div.container div.blog-post {
+		display: block;
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	div.main-content section.contact-section div.contact-info div {
+		display: block;
+		width: 95%;
+		margin: 0 auto;
+		padding-bottom: 10px;
+	}
+
+	div.main-content section.contact-section form input.inputi {
+		display: block;
+		width: 93%;
+	}
+
+	div.main-content section.contact-section form input.button {
+		width: 93%;
+	}
+
+	div.main-content footer {						
+		width: 100%;
+		height: 200px;
+	}
+
+	div.main-content footer div p {
+		display: inline-block;
+		float: none;
+	}
+
+	div.main-content footer div ul {
+		float: none;
+	}
+}
