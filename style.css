@@ -48,6 +48,7 @@ div.hero-image {
 	position: relative;
     height: 800px;
     background-image: url(http://demo.akilathiwanka.info/atlas-html/images/bg.jpg);
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -671,6 +672,10 @@ div.main-content footer div ul li a:hover {
 		color: black;
 	}
 
+	section.portfolio-content ul {
+		padding-left: 0px;
+	}
+
 	section.portfolio-content div.portfolio-img {
 		display: block;
 		width: 95%;
@@ -688,6 +693,10 @@ div.main-content footer div ul li a:hover {
 		width: 95%;
 		margin: 0 auto;
 		padding-bottom: 10px;
+	}
+
+	div.main-content section.services span {
+	    font-size: 80px;
 	}
 
 	div.main-content section.projects {
@@ -745,12 +754,32 @@ div.main-content footer div ul li a:hover {
 		height: 200px;
 	}
 
+	div.main-content footer div {
+		width: 90%;
+		height: 100%;
+		margin: 0 auto;
+		padding: 10px 0px;
+	}
+
 	div.main-content footer div p {
-		display: inline-block;
+		display: block;
 		float: none;
+		margin: 0px;
+		text-align: center;
 	}
 
 	div.main-content footer div ul {
 		float: none;
+		margin-left: 20%;
+		margin-top: 10px;
+		margin-bottom: 0;
 	}
+
+	div.main-content footer {						
+		width: 100%;
+		height: 80px;
+		background-color: #e6e6e6;
+	}
+
+	
 }
